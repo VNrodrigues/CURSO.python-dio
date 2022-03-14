@@ -42,18 +42,10 @@ def mover_arq(nome_arq):
 
 if __name__ == '__main__':
     mover_arq('notas.txt')
-    # copia_arquivo('notas.txt')
-    # print(lista_media)
-    # escrever_arq('Primeira linha.\n')
-    # aluno = 'Cesar 7, 9, 3, 8\n'
-    # att_arq('notas.txt', aluno)
-    # att_arq('Terceira linha.\n')
-    # ler_arq('teste.txt')
-
-# Como trabalhar com as informações de um arquivo
-
-# Como trabalhar melhor com as Strings
-
-# Lambda
-
-# Como copiar e mover arquivos
+    copia_arquivo('notas.txt')
+    print(lista_media)
+    escrever_arq('Primeira linha.\n')
+    aluno = 'Cesar 7, 9, 3, 8\n'
+    att_arq('notas.txt', aluno)
+    att_arq('Terceira linha.\n')
+    ler_arq('teste.txt')
